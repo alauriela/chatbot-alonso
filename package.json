@@ -13,16 +13,18 @@
     "react-dom": "^18.2.0",
     "ai": "^3.0.0",
     "llamaindex": "^0.11.0",
-    "@llamaindex/openai": "^0.4.0",
+    "groq-sdk": "^0.4.0",
     "@llamaindex/readers": "^3.1.4",
     "dotenv": "^16.4.7",
     "@notionhq/client": "^2.2.0",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "js-md5": "^0.8.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.3",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.2",
+    "@types/js-md5": "^0.4.2"
   }
 }
