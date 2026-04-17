@@ -1,9 +1,0 @@
-{
-  "buildCommand": "next build",
-  "outputDirectory": ".next",
-  "env": {
-    "OPENAI_API_KEY": "@openai_api_key",
-    "NOTION_INTEGRATION_TOKEN": "@notion_integration_token",
-    "NOTION_DATABASE_ID": "@notion_database_id"
-  }
-}
