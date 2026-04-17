@@ -1,7 +1,7 @@
 import { VectorStoreIndex, Document } from "llamaindex";
 import { Groq } from "groq-sdk";
 import { loadNotionFAQ } from "./notion/loader";
-import md5 from "js-md5";
+import * as md5 from "js-md5";
 
 let cachedIndex: VectorStoreIndex | null = null;
 
